@@ -1,4 +1,5 @@
 #pragma once
+#include "netvars/netvars.h"
 
 
 namespace util::valve {

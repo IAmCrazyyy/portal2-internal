@@ -45,6 +45,9 @@
     <ClCompile Include="hack\features\misc\bhop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="util\valve\netvars\netvars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hack\hack.h">
@@ -132,6 +135,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sdk\enums\e_ent_flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\valve\netvars\netvars.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sdk\misc\recv.h">

@@ -50,6 +50,11 @@ namespace portal {
 		portal::modules::capture( );
 		portal::patterns::capture( );
 		portal::interfaces::capture( );
+		util::valve::netvars::capture( );
+
+#ifdef _DEBUG
+		util::valve::netvars::dump( );
+#endif
 	}
 }
 

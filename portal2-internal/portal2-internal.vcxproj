@@ -29,6 +29,7 @@
     <ClCompile Include="util\hooking\vmt\vmt.cpp" />
     <ClCompile Include="util\logger\logger.cpp" />
     <ClCompile Include="util\mem\mem.cpp" />
+    <ClCompile Include="util\valve\netvars\netvars.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hack\features\features.h" />
@@ -61,6 +62,7 @@
     <ClInclude Include="util\mem\mem.h" />
     <ClInclude Include="util\mem\module\module.h" />
     <ClInclude Include="util\util.h" />
+    <ClInclude Include="util\valve\netvars\netvars.h" />
     <ClInclude Include="util\valve\valve.h" />
   </ItemGroup>
   <ItemGroup>
