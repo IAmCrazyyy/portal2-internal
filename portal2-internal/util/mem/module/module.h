@@ -58,7 +58,7 @@ namespace util::mem {
 				return ret;
 			}
 
-			L_ERROR( "Signature from %s '%s' not found", m_name, pattern.data( ) );
+			// L_ERROR( "Signature from %s '%s' not found", m_name, pattern.data( ) );
 			return mem::addr_t( );
 		}
 	protected:
